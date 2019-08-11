@@ -1,0 +1,86 @@
+.card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 10px;
+}
+
+.card {
+border-bottom: 1px solid gray;
+}
+
+.card-title {
+    color: #5094f2;
+    font-family: 'Open Sans';
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 51.86px;
+    display: flex;
+    flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+    align-content: flex-start;
+    margin: 0;
+    padding-top: 24px;
+
+}
+
+.card-description {
+    color: #909090;
+    font-family: 'Open Sans';
+    font-size: 19px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+    align-content: flex-start;
+    margin: 0;
+}
+
+.card-icon {
+    font-size: 107px;
+    text-align: center;
+}
+
+/* .card-icon {
+    border-radius: 50%;
+    border: 3px solid blue;
+    height: 140px;
+    width: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+/* .circle {
+    height: 137px;
+    width: 137px;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 100%;
+    background-color: royalblue;
+    position: relative;
+    display: inline-block;
+} */
+
+.round {
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+    line-height: 10em;  
+    background: #5094f2;
+    flex-shrink: 0;
+    text-align: center;
+    display: flex;
+
+    justify-content: center;
+}
+
+.round-yellow {
+    background: yellow;
+}
+.round-red {
+    background-color: #d94748;
+}

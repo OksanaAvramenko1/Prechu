@@ -1,0 +1,38 @@
+.grid {
+    display:flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+
+  .grid > * {
+    padding: 0 10px;
+}
+
+
+.grid-features {
+    width: 100%;
+    object-fit: cover;
+    height: auto;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.grid-center > * {
+    /* padding-right: 104px; */
+}
+
+.grid-title{
+    color: #6f7173;
+    font-size: 26px;
+}
+
+.grid-description {
+    color: #909090;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 36px;
+}
+
+.grid-space {
+    padding-top: 70px;
+}
